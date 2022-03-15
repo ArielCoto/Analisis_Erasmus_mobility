@@ -1,3 +1,4 @@
+
 ---
 title: "TidyTuesday"
 output: github_document
@@ -209,6 +210,7 @@ En esta sección.. presenté muchos problemas para adaptar el nombre de las ciud
 ```{r}
 #Aquí solo corregí los nombres de las ciudades y las emparejé con sus provincias
 library(readr)
+#Aqui usar las bases de datos que puse en el repositorio
 ciudades_spain_data <- read_csv("C:/Users/cotot/OneDrive/Desktop/LUZ DE NOCHE/TidyTuesdays/ciudades_spain_data.csv", 
     locale = locale(encoding = "WINDOWS-1252"))
 
